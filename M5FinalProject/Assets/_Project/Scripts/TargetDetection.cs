@@ -7,8 +7,6 @@ public class TargetDetection : MonoBehaviour
     [SerializeField] private Transform _target;
 
     [Header("Vision Settings")]
-    [SerializeField] private int _subdivisions = 12;
-    [SerializeField] private float _interval = 0.3f;
     [SerializeField] private float _baseViewAngle = 45f;
     [SerializeField] private float _baseSightDistance = 45f;
 
@@ -16,24 +14,16 @@ public class TargetDetection : MonoBehaviour
     [SerializeField] private LayerMask _whatIsObstacle;
 
     [Header("Show")]
-    [SerializeField] private bool _showFov = true;
     [SerializeField] private bool _showDebugLine = true;
 
     private float _currentViewAngle;
     private float _currentSightDistance;
-    private LineRenderer _lineRenderer;
+
+    public float ViewAngle => _currentViewAngle;
+    public float SightDistance => _currentSightDistance;
 
     public Transform Target => _target;
 
-    private void Awake()
-    {
-        _lineRenderer = GetComponentInChildren<LineRenderer>();
-    }
-    public void SetShowFov(bool showFov)
-    {
-        _showFov = showFov;
-        _lineRenderer.enabled = showFov;
-    }
     public bool CanSeeTarget()
     {
         if (Target == null) return false;

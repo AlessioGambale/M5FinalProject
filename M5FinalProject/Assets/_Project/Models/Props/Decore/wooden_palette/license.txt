@@ -1,0 +1,11 @@
+Model Information:
+* title:	Wooden palette
+* source:	https://sketchfab.com/3d-models/wooden-palette-db152b5653734584b6843dfbe6886beb
+* author:	Reliefy3D (https://sketchfab.com/Krystian.Kulasek)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Wooden palette" (https://sketchfab.com/3d-models/wooden-palette-db152b5653734584b6843dfbe6886beb) by Reliefy3D (https://sketchfab.com/Krystian.Kulasek) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

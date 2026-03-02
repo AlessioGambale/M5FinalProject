@@ -1,0 +1,138 @@
+fileFormatVersion: 2
+guid: b538317c1fb763942aac28f2c111f2cb
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 715df9372183c47e389bb6e19fbc3b52, type: 3}
+  editorImportSettings:
+    generateSecondaryUVSet: 0
+  importSettings:
+    nodeNameMethod: 1
+    animationMethod: 2
+    generateMipMaps: 1
+    texturesReadable: 0
+    defaultMinFilterMode: 9729
+    defaultMagFilterMode: 9729
+    anisotropicFilterLevel: 1
+  instantiationSettings:
+    mask: -1
+    layer: 0
+    skinUpdateWhenOffscreen: 1
+    lightIntensityFactor: 1
+    sceneObjectCreation: 2
+  assetDependencies:
+  - type: 0
+    originalUri: Assets\_Project\Models\Props\geometry_panic__factory\scene.bin
+    assetPath: Assets\_Project\Models\Props\geometry_panic__factory\scene.bin
+  - type: 1
+    originalUri: Assets\_Project\Models\Props\geometry_panic__factory\textures\material_0_baseColor.png
+    assetPath: Assets\_Project\Models\Props\geometry_panic__factory\textures\material_0_baseColor.png
+  - type: 1
+    originalUri: Assets\_Project\Models\Props\geometry_panic__factory\textures\material_0_metallicRoughness.png
+    assetPath: Assets\_Project\Models\Props\geometry_panic__factory\textures\material_0_metallicRoughness.png
+  - type: 1
+    originalUri: Assets\_Project\Models\Props\geometry_panic__factory\textures\material_0_normal.png
+    assetPath: Assets\_Project\Models\Props\geometry_panic__factory\textures\material_0_normal.png
+  - type: 1
+    originalUri: Assets\_Project\Models\Props\geometry_panic__factory\textures\material_0_specularf0.png
+    assetPath: Assets\_Project\Models\Props\geometry_panic__factory\textures\material_0_specularf0.png
+  - type: 1
+    originalUri: Assets\_Project\Models\Props\geometry_panic__factory\textures\robo_baseColor.png
+    assetPath: Assets\_Project\Models\Props\geometry_panic__factory\textures\robo_baseColor.png
+  - type: 1
+    originalUri: Assets\_Project\Models\Props\geometry_panic__factory\textures\robo_metallicRoughness.png
+    assetPath: Assets\_Project\Models\Props\geometry_panic__factory\textures\robo_metallicRoughness.png
+  - type: 1
+    originalUri: Assets\_Project\Models\Props\geometry_panic__factory\textures\robo_emissive.png
+    assetPath: Assets\_Project\Models\Props\geometry_panic__factory\textures\robo_emissive.png
+  - type: 1
+    originalUri: Assets\_Project\Models\Props\geometry_panic__factory\textures\robo_normal.png
+    assetPath: Assets\_Project\Models\Props\geometry_panic__factory\textures\robo_normal.png
+  - type: 1
+    originalUri: Assets\_Project\Models\Props\geometry_panic__factory\textures\floor_block_baseColor.png
+    assetPath: Assets\_Project\Models\Props\geometry_panic__factory\textures\floor_block_baseColor.png
+  - type: 1
+    originalUri: Assets\_Project\Models\Props\geometry_panic__factory\textures\floor_block_metallicRoughness.png
+    assetPath: Assets\_Project\Models\Props\geometry_panic__factory\textures\floor_block_metallicRoughness.png
+  - type: 1
+    originalUri: Assets\_Project\Models\Props\geometry_panic__factory\textures\floor_block_normal.png
+    assetPath: Assets\_Project\Models\Props\geometry_panic__factory\textures\floor_block_normal.png
+  - type: 1
+    originalUri: Assets\_Project\Models\Props\geometry_panic__factory\textures\blocking_and_details_baseColor.png
+    assetPath: Assets\_Project\Models\Props\geometry_panic__factory\textures\blocking_and_details_baseColor.png
+  - type: 1
+    originalUri: Assets\_Project\Models\Props\geometry_panic__factory\textures\blocking_and_details_metallicRoughness.png
+    assetPath: Assets\_Project\Models\Props\geometry_panic__factory\textures\blocking_and_details_metallicRoughness.png
+  - type: 1
+    originalUri: Assets\_Project\Models\Props\geometry_panic__factory\textures\blocking_and_details_emissive.png
+    assetPath: Assets\_Project\Models\Props\geometry_panic__factory\textures\blocking_and_details_emissive.png
+  - type: 1
+    originalUri: Assets\_Project\Models\Props\geometry_panic__factory\textures\blocking_and_details_normal.png
+    assetPath: Assets\_Project\Models\Props\geometry_panic__factory\textures\blocking_and_details_normal.png
+  - type: 1
+    originalUri: Assets\_Project\Models\Props\geometry_panic__factory\textures\other_details_baseColor.png
+    assetPath: Assets\_Project\Models\Props\geometry_panic__factory\textures\other_details_baseColor.png
+  - type: 1
+    originalUri: Assets\_Project\Models\Props\geometry_panic__factory\textures\other_details_metallicRoughness.png
+    assetPath: Assets\_Project\Models\Props\geometry_panic__factory\textures\other_details_metallicRoughness.png
+  - type: 1
+    originalUri: Assets\_Project\Models\Props\geometry_panic__factory\textures\other_details_emissive.png
+    assetPath: Assets\_Project\Models\Props\geometry_panic__factory\textures\other_details_emissive.png
+  - type: 1
+    originalUri: Assets\_Project\Models\Props\geometry_panic__factory\textures\other_details_normal.png
+    assetPath: Assets\_Project\Models\Props\geometry_panic__factory\textures\other_details_normal.png
+  - type: 1
+    originalUri: Assets\_Project\Models\Props\geometry_panic__factory\textures\base_details_metallicRoughness.png
+    assetPath: Assets\_Project\Models\Props\geometry_panic__factory\textures\base_details_metallicRoughness.png
+  - type: 1
+    originalUri: Assets\_Project\Models\Props\geometry_panic__factory\textures\base_details_emissive.png
+    assetPath: Assets\_Project\Models\Props\geometry_panic__factory\textures\base_details_emissive.png
+  - type: 1
+    originalUri: Assets\_Project\Models\Props\geometry_panic__factory\textures\toxic_and_glass_baseColor.png
+    assetPath: Assets\_Project\Models\Props\geometry_panic__factory\textures\toxic_and_glass_baseColor.png
+  - type: 1
+    originalUri: Assets\_Project\Models\Props\geometry_panic__factory\textures\toxic_and_glass_metallicRoughness.png
+    assetPath: Assets\_Project\Models\Props\geometry_panic__factory\textures\toxic_and_glass_metallicRoughness.png
+  - type: 1
+    originalUri: Assets\_Project\Models\Props\geometry_panic__factory\textures\toxic_and_glass_emissive.png
+    assetPath: Assets\_Project\Models\Props\geometry_panic__factory\textures\toxic_and_glass_emissive.png
+  - type: 1
+    originalUri: Assets\_Project\Models\Props\geometry_panic__factory\textures\toxic_and_glass_normal.png
+    assetPath: Assets\_Project\Models\Props\geometry_panic__factory\textures\toxic_and_glass_normal.png
+  reportItems:
+  - type: 2
+    code: 20
+    messages:
+    - KHR_materials_specular
+  - type: 2
+    code: 20
+    messages:
+    - KHR_materials_emissive_strength
+  - type: 0
+    code: 52
+    messages:
+    - 3
+  - type: 0
+    code: 52
+    messages:
+    - 2
+  - type: 0
+    code: 52
+    messages:
+    - 3
+  - type: 0
+    code: 52
+    messages:
+    - 2
+  - type: 0
+    code: 52
+    messages:
+    - 3
+  - type: 0
+    code: 52
+    messages:
+    - 2

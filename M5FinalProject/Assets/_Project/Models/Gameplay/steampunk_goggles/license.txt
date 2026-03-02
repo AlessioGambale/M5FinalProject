@@ -1,0 +1,11 @@
+Model Information:
+* title:	Steampunk goggles
+* source:	https://sketchfab.com/3d-models/steampunk-goggles-442ca66119d44cfeb407b101bee6d055
+* author:	ProHolmes (https://sketchfab.com/alex.laskevic)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Steampunk goggles" (https://sketchfab.com/3d-models/steampunk-goggles-442ca66119d44cfeb407b101bee6d055) by ProHolmes (https://sketchfab.com/alex.laskevic) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
