@@ -1,0 +1,11 @@
+Model Information:
+* title:	Objects>Other>Items>AI Chip
+* source:	https://sketchfab.com/3d-models/objectsotheritemsai-chip-1d871b8d5f654ab3bd7216d135e8c067
+* author:	jameslucino117 (https://sketchfab.com/jameslucino117)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Objects>Other>Items>AI Chip" (https://sketchfab.com/3d-models/objectsotheritemsai-chip-1d871b8d5f654ab3bd7216d135e8c067) by jameslucino117 (https://sketchfab.com/jameslucino117) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -3,10 +3,10 @@ using UnityEngine;
 
 public class WayPointEnemy : Enemy
 {
-    [SerializeField] private Transform[] _wayPoints;
+    [SerializeField] protected Transform[] _wayPoints;
     [SerializeField] private float _waitTime;
     
-    private int _currentIndex;
+    protected int _currentIndex;
     private bool _isWaiting  = false;
 
     public override void HandlePatrol()
@@ -18,7 +18,7 @@ public class WayPointEnemy : Enemy
        }
     }
 
-    private void UpdateIndex()
+    protected virtual void UpdateIndex()
     {
         _currentIndex = (_currentIndex + 1) % _wayPoints.Length;
     }

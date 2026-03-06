@@ -1,0 +1,11 @@
+Model Information:
+* title:	Steampunk pipe
+* source:	https://sketchfab.com/3d-models/steampunk-pipe-d549c0d9f5564fcb9325d8bccdd9a653
+* author:	Polygon Experts (https://sketchfab.com/polygonexperts)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Steampunk pipe" (https://sketchfab.com/3d-models/steampunk-pipe-d549c0d9f5564fcb9325d8bccdd9a653) by Polygon Experts (https://sketchfab.com/polygonexperts) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
