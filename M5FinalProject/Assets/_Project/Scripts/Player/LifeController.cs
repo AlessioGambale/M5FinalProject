@@ -1,48 +1,51 @@
+using System;
 using UnityEngine;
 using UnityEngine.Events;
 
 public class LifeController : MonoBehaviour
 {
-    [Header("Health Settings")]
-    [SerializeField] private int _maxHealth = 90;
-    [SerializeField] private int _currentHealth;
+    [Header("Life Settings")]
+    [SerializeField] private int _maxHp;
+    [SerializeField] private int _currentHp;
+    [SerializeField] private bool _startFullHp = true;
 
-    [Header("Events")]
-    [SerializeField] private UnityEvent _onPlayerDeath;
-    [SerializeField] private UnityEvent<int , int> _onHealthChange;
+    public event Action<int> OnHealthChanged;
+    public event Action OnPlayerDeath;
 
-    public int MaxHealth => _maxHealth;
-    public float CurrentHealth => _currentHealth;
+    public int CurrentHp { get => _currentHp; private set => SetHp(value); }
 
     private void Start()
     {
-        SetHp(_maxHealth);
-    }
-    public void SetHp(int  hp)
-    {
-        hp = Mathf.Clamp(hp, 0, _maxHealth);
-        if (hp != _currentHealth) 
+        if (_startFullHp)
         {
-            _currentHealth = hp;
-            _onHealthChange?.Invoke(_currentHealth ,_maxHealth);
-            if (_currentHealth <= 0)
+            RestoreFullHp();
+        }
+    }
+
+    public void RestoreFullHp() => SetHp(_maxHp);
+
+    public void SetMaxHp(int maxHp) => _maxHp = maxHp;
+
+    private void SetHp(int hp)
+    {
+        hp = Mathf.Clamp(hp, 0, _maxHp);
+
+        if (hp != _currentHp)
+        {
+            _currentHp = hp;
+            OnHealthChanged?.Invoke(_currentHp);
+
+            if (_currentHp <= 0)
             {
-                _onPlayerDeath.Invoke();
+                OnPlayerDeath?.Invoke();
             }
         }
     }
-    public void RestoreFullHp() => SetHp(_maxHealth);
-    public void TakeDamage (float damage)
-    {
-        SetHp((int)(_currentHealth - damage));
-    }
-    
-    public void AddHp(int amount)
-    {
-        SetHp(_currentHealth + amount);
-    }
-    
-    
 
+    public void AddHp(int amount) => SetHp(_currentHp + amount);
 
+    public void TakeDamage(int amount)
+    {
+        SetHp(_currentHp - amount);
+    }
 }

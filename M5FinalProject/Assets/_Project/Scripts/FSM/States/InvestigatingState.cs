@@ -23,10 +23,11 @@ public class InvestigatingState : FSM_BaseState
         _direction = 1;
         _enemy.Agent.isStopped = false;
         _enemy.TargetDetection.ResetVision();
+        _enemy.CanBeAlerted = false;
     }
     public override void OnStateExit()
-    { 
-    
+    {
+        _enemy.CanBeAlerted = true;
     }
     private void Rotate()
     {

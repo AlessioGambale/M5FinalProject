@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,8 +10,13 @@ public class InventoryManager : MonoBehaviour
 
     [SerializeField] private GameObject _player;
     [SerializeField] private List<SO_GenericItem> _inventory;
+    [SerializeField] private int _maxSlots;
 
-    private KeyCode[] _keyCodes; 
+    private KeyCode[] _keyCodes;
+
+    public event Action OnInventoryChange;
+
+    public int SlotCount => _inventory.Count;
 
     private void KeyCodeMap()
     {
@@ -18,6 +24,7 @@ public class InventoryManager : MonoBehaviour
     }
     private void Awake()
     {
+        KeyCodeMap();
         if (Instance != null && Instance != this)
         {
             Destroy(gameObject);
@@ -33,6 +40,8 @@ public class InventoryManager : MonoBehaviour
         if (_inventory[itemIndex] == null) return;
 
         _inventory[itemIndex].Use(_player);
+
+        OnInventoryChange?.Invoke();
     }
 
     public int FindItem(SO_GenericItem item)
@@ -44,6 +53,12 @@ public class InventoryManager : MonoBehaviour
         return -1;
     }
 
+    public SO_GenericItem GetItem(int index)
+    {
+        if (index < 0 || index >= _inventory.Count) return null;
+        return _inventory[index];
+    }
+
     public bool HasItem(SO_GenericItem item)
     {
         return FindItem(item) >= 0;
@@ -51,7 +66,9 @@ public class InventoryManager : MonoBehaviour
 
     public void AddItem(SO_GenericItem item)
     {
+        if (_inventory.Count >= _maxSlots) return;
         _inventory.Add(item);
+        OnInventoryChange?.Invoke();
     }
 
     public void RemoveItem(SO_GenericItem item)

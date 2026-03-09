@@ -1,0 +1,28 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class UpDownMove : MonoBehaviour
+{
+    [Header("Rise Settings")]
+    [SerializeField] private float _altitude = 1f;
+    [SerializeField] private float _altitudeSpeed = 2f;
+
+    private Vector3 _startPosition;
+
+    private void Start()
+    {
+        _startPosition = transform.position;
+    }
+
+    private void UpDown()
+    {
+        float offSetY = Mathf.Sin(Time.time * _altitudeSpeed) * _altitude;
+        transform.position = _startPosition + Vector3.up * offSetY;
+    }
+
+    private void Update()
+    {
+        UpDown();
+    }
+}

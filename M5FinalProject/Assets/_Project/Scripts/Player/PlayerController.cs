@@ -3,10 +3,12 @@ using UnityEngine.AI;
 
 public class PlayerController : MonoBehaviour
 {
+    [SerializeField] private ClickMarker _clickMarker;
     private NavMeshAgent _agent;
     private Camera _cam;
     private AnimationParamHandler _animationParamHandler;
-    
+
+    public NavMeshAgent Agent => _agent;
     
     private void Start()
     {
@@ -28,6 +30,7 @@ public class PlayerController : MonoBehaviour
             Ray ray = _cam.ScreenPointToRay (Input.mousePosition);
             if (Physics.Raycast(ray , out RaycastHit hitinfo))
             {
+                _clickMarker.ShowMarker(hitinfo);
                 _agent.SetDestination(hitinfo.point);
             }
         }

@@ -7,11 +7,13 @@ public class ChaseState : FSM_BaseState
     public override void OnStateEnter()
     {
         _enemy.TargetDetection.SetVision(1.5f , 1.2f);
+        _enemy.CanBeAlerted = false;
+        SoundManager.Instance.PlayChase();
     }
 
     public override void OnStateExit()
     {
-        
+        _enemy.CanBeAlerted = true;
     }
 
     public override void StateUpdate()

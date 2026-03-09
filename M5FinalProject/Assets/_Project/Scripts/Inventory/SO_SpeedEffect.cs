@@ -2,7 +2,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
 
-
+[CreateAssetMenu(menuName = "Effects/SpeedEffect")]
 public class SO_SpeedEffect : SO_Effect
 {
     [SerializeField] private float _multiplier;
@@ -20,6 +20,6 @@ public class SO_SpeedEffect : SO_Effect
     {
         agent.speed *= _multiplier;
         yield return new WaitForSeconds(_duration);
-        agent.speed /= 1;
+        agent.speed /= _multiplier;
     }
 }

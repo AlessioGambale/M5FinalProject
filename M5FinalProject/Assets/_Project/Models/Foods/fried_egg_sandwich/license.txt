@@ -1,0 +1,11 @@
+Model Information:
+* title:	Fried egg sandwich
+* source:	https://sketchfab.com/3d-models/fried-egg-sandwich-7bd49a69f4cf466183d998ca973d4390
+* author:	leepaulart (https://sketchfab.com/leepaulart)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Fried egg sandwich" (https://sketchfab.com/3d-models/fried-egg-sandwich-7bd49a69f4cf466183d998ca973d4390) by leepaulart (https://sketchfab.com/leepaulart) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

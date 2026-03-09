@@ -31,7 +31,6 @@ public class SwitchManager : MonoBehaviour
         Debug.Log(_currentCount);
         if (_currentCount >= _requiredActivations)
         {
-            Debug.Log("LucaMangaka");
             _onSwitchActivated?.Invoke();
         }
     }

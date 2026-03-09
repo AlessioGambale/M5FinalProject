@@ -10,7 +10,6 @@ public class InteractableTrigger : MonoBehaviour
     public void EnableTrigger()
     {
         isEnabled = true;
-        Debug.Log("GiulioTrigger");
     }
 
     private void Update()
@@ -20,7 +19,7 @@ public class InteractableTrigger : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E))
         {
             _onTriggered.Invoke();
-            Debug.Log("GiulioGay");
+            SoundManager.Instance.PlayButton();
         }
     }
     private void OnTriggerEnter(Collider other)

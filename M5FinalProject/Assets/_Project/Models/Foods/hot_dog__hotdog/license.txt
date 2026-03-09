@@ -1,0 +1,11 @@
+Model Information:
+* title:	Hot Dog / Hotdog
+* source:	https://sketchfab.com/3d-models/hot-dog-hotdog-af69ed0e533b429e96dc6577a294b8a5
+* author:	simalmaii (https://sketchfab.com/simalmaii)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Hot Dog / Hotdog" (https://sketchfab.com/3d-models/hot-dog-hotdog-af69ed0e533b429e96dc6577a294b8a5) by simalmaii (https://sketchfab.com/simalmaii) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -3,7 +3,22 @@ guid: d4b48480210ce3a4fb33a4ad0cd877e6
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chest_Material
+    second: {fileID: 2100000, guid: 50591e8512cdf8f4e8f5eb2252d91240, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RobotHead
+    second: {fileID: 2100000, guid: 1fb01f54668df14448bc65e0d1ab143f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Robot_Material
+    second: {fileID: 2100000, guid: 4a633636cc53e094ca9c452d74df3629, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

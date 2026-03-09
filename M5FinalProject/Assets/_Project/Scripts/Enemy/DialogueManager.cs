@@ -18,6 +18,10 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private string[] _dialogueTexts;
     [SerializeField] private float[] _durations;
 
+    public string[] Speakers { get => _speakers; set => _speakers = value; }
+    public string[] DialogueText { get => _dialogueTexts; set => _dialogueTexts = value; }
+    public float[] Durations { get => _durations; set => _durations = value; }
+
     private int _currentLineIndex;
     private bool _dialogueActive = false;
     private Coroutine _dialogueCoroutine;
@@ -67,8 +71,8 @@ public class DialogueManager : MonoBehaviour
 
     private void ShowCurrentLine()
     {
-        if (_speakerText) _speakerText.text = _speakers[_currentLineIndex];
-        if (_dialogueText) _dialogueText.text = _dialogueTexts[_currentLineIndex];
+        if (_speakerText) _speakerText.SetText(_speakers[_currentLineIndex]);
+        if (_dialogueText) _dialogueText.SetText(_dialogueTexts[_currentLineIndex]);
     }
 
     private void SkipDialogue()

@@ -1,7 +1,11 @@
 using System;
 using UnityEngine;
+using UnityEngine.Events;
 public class InteractableSwitch : MonoBehaviour
 {
+    [SerializeField] private UnityEvent _onActivated;
+    [SerializeField] private bool _canRetrigger = false;
+    
     public event Action OnActivated;
 
     private bool _isActive = false;
@@ -11,7 +15,8 @@ public class InteractableSwitch : MonoBehaviour
         if (_isActive) return;
         _isActive = true;
         OnActivated?.Invoke();
-        Debug.Log("GiulioGay");
+        _onActivated?.Invoke();
+        SoundManager.Instance.PlayLever();
     }
 
     private void Update()
@@ -21,6 +26,8 @@ public class InteractableSwitch : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E))
         {
             Activate();
+
+            if (_canRetrigger)  _isActive = false;  
         }
     }
     private void OnTriggerEnter(Collider other)
@@ -30,6 +37,16 @@ public class InteractableSwitch : MonoBehaviour
         {
            _isInside = true;
             
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (_isActive) return;
+        if (other.CompareTag("Player"))
+        {
+            _isInside = false;
+
         }
     }
 }

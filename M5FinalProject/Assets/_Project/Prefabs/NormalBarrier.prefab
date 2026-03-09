@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6655497662319775369}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Graphic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 2185937995766788419}
   - component: {fileID: 6214572518247718563}
   - component: {fileID: 6624563295341863008}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NormalBarrier
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -125,7 +125,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7022113081532148372}
   - component: {fileID: 3116636424300207215}
-  m_Layer: 0
+  - component: {fileID: 1727439882111905420}
+  m_Layer: 8
   m_Name: NormalBarrier
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -164,3 +165,24 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 1.24, z: -0.04}
   m_TimeToStationary: 0.5
+--- !u!65 &1727439882111905420
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8989176149687785234}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 6.1525497, y: 3.079972, z: 2.0177994}
+  m_Center: {x: -0.12988663, y: 1.039986, z: -0.03435135}
