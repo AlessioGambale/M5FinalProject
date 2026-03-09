@@ -16434,18 +16434,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 2005117117}
-        m_TargetAssemblyTypeName: CameraManager, Assembly-CSharp
-        m_MethodName: ReturnToGameplayCamera
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
   _speakers:
   - ChefBot
   - ChefBot
@@ -19536,17 +19524,17 @@ PrefabInstance:
     - target: {fileID: 2774220344278030320, guid: c7c52dbe00699b943a11bf18b3bc7b43,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -215.863
+      value: -216.04
       objectReference: {fileID: 0}
     - target: {fileID: 2774220344278030320, guid: c7c52dbe00699b943a11bf18b3bc7b43,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.84300005
+      value: -0.84
       objectReference: {fileID: 0}
     - target: {fileID: 2774220344278030320, guid: c7c52dbe00699b943a11bf18b3bc7b43,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 12.251003
+      value: 10.04
       objectReference: {fileID: 0}
     - target: {fileID: 2774220344278030320, guid: c7c52dbe00699b943a11bf18b3bc7b43,
         type: 3}
@@ -35287,7 +35275,7 @@ Transform:
   m_GameObject: {fileID: 1283964319}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 32.71, y: 1.648, z: 22.61}
+  m_LocalPosition: {x: -228.7, y: 1.648, z: 45.41}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -38280,7 +38268,7 @@ PrefabInstance:
     - target: {fileID: 2774220344278030320, guid: 130e0e0825ced5e4d9d1b9c6205ab0b3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.8460001
+      value: -0.942
       objectReference: {fileID: 0}
     - target: {fileID: 2774220344278030320, guid: 130e0e0825ced5e4d9d1b9c6205ab0b3,
         type: 3}
@@ -42057,7 +42045,7 @@ Transform:
   m_GameObject: {fileID: 1514172135}
   serializedVersion: 2
   m_LocalRotation: {x: 0.35355338, y: -0.35355338, z: 0.1464466, w: 0.8535535}
-  m_LocalPosition: {x: 30.772812, y: -5.4561253, z: -20.375736}
+  m_LocalPosition: {x: -230.63718, y: -5.4561234, z: 2.424263}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -45015,12 +45003,12 @@ PrefabInstance:
     - target: {fileID: 2774220344278030320, guid: 6a29e4f8b0f1b9044bebe2ae112f5945,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.85600007
+      value: -0.86
       objectReference: {fileID: 0}
     - target: {fileID: 2774220344278030320, guid: 6a29e4f8b0f1b9044bebe2ae112f5945,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 10.140003
+      value: 12.28
       objectReference: {fileID: 0}
     - target: {fileID: 2774220344278030320, guid: 6a29e4f8b0f1b9044bebe2ae112f5945,
         type: 3}
